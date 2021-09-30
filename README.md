@@ -1,2 +1,2 @@
 # WebTech
-This is a repository for WEB TECHNOLOGIES [O]
+This is a repository for Web Technologies[O].
