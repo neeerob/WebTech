@@ -22,6 +22,7 @@
 	$webPage = $_POST['webPage'];
 	$userName = $_POST['userName'];
 	$password = $_POST['password'];
+	
 
 	if (empty($firstname)){
 		//$firstnameValid = false;
