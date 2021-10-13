@@ -41,7 +41,7 @@
 			}
 
 			else{
-				echo "Hello";
+				echo "JSON File not found.";
 			}
 		}
 
