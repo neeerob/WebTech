@@ -26,11 +26,11 @@
 
 		<label>To:</label>
 		<select name="sendTo">
-			<option value="Select a value">Test</option>
+			<option value="Select a value">Select Someone</option>
 
 
 			<?php
-				echo "<option value='Select a value'>Test-2</option>";
+				
 				if(file_exists("../digital-wallet/beneficiary_data.json")){
 				$handle = fopen("../digital-wallet/beneficiary_data.json","r");
 				$explode = fread($handle,filesize("../digital-wallet/beneficiary_data.json"));
