@@ -62,7 +62,7 @@
 							echo "$json->catagory";
 							echo "</td>";
 							echo "<td>";
-							echo "$json->phone";
+							echo "$json->name";
 							echo "</td>";
 							echo "<td>";
 							echo "$json->amount";
@@ -111,7 +111,7 @@
 					echo "$json->catagory";
 					echo "</td>";
 					echo "<td>";
-					echo "$json->phone";
+					echo "$json->name";
 					echo "</td>";
 					echo "<td>";
 					echo "$json->amount";
