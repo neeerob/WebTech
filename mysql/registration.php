@@ -148,10 +148,10 @@
 										$res = $stmt->execute();
 
 									if ($res) {
-										echo "Registered";
+										echo "<b>Successfully registered</b>";
 									}
 									else {
-										echo "Error while registering";
+										echo "<b>Error while registering!</b>";
 									}
 								}
 							$connection->close();
@@ -167,7 +167,7 @@
 
 
 
-	<P>Alrady have an account? Click <a href="Login.php"> here</a> to Login.</P>
+	<P>Alrady have an account? Click <a href="login.php"> here</a> to Login.</P>
 
 
 </body>
