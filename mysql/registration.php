@@ -148,10 +148,10 @@
 										$res = $stmt->execute();
 
 									if ($res) {
-										echo "Data Inserted Succssfully";
+										echo "Registered";
 									}
 									else {
-										echo "Error while saving";
+										echo "Error while registering";
 									}
 								}
 							$connection->close();
