@@ -140,7 +140,7 @@
 									
 								}
 								else{
-									echo "OK";
+									
 									$sql = "INSERT INTO user_information (firstName, lastName, gender, DOB, religion, p_add, par_add, phone, email, web, user, pass) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
 									//$res = $connection->query($sql);
 									$stmt = $connection->prepare($sql);
