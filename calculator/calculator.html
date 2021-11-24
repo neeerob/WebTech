@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<title>Calculator Using JavaScript</title>
+		<style>
+			.button {
+				padding: 10px;
+				border-radius: 1em;
+				height: 40px;
+				width: 40px;
+				border: solid black 1px;
+			}
+			.display{
+
+				height: 35px;
+				border: solid black 1px;
+				border-radius: 1em;
+			}
+		</style>
+	</head>
+	<body>
+		<script src="script.js"></script>
+
+		<table class = "calculator" align="center" style="text-align: center; ">
+			<tr>
+				<td colspan = "3"> <input class = "display" type = "text" id = "result"> </td>
+				<td> 
+				<input class = "button" type = "button" value = "AC" onclick = "clarData()"> </td>
+			</tr>
+			<tr>
+				<td> <input class = "button" type = "button" value = "1" onclick = "myMathLine('1')" > </td>
+				<td> <input class = "button" type = "button" value = "2" onclick = "myMathLine('2')" > </td>
+				<td> <input class = "button" type = "button" value = "3" onclick = "myMathLine('3')" > </td>
+				<td> <input class = "button" type = "button" value = "/" onclick = "myMathLine('/')" > </td>
+			</tr>
+			<tr>
+				<td> <input class = "button" type = "button" value = "4" onclick = "myMathLine('4')" > </td>
+				<td> <input class = "button" type = "button" value = "5" onclick = "myMathLine('5')" > </td>
+				<td> <input class = "button" type = "button" value = "6" onclick = "myMathLine('6')" > </td>
+				<td> <input class = "button" type = "button" value = "-" onclick = "myMathLine('-')" > </td>
+			</tr>
+			<tr>
+				<td> <input class = "button" type = "button" value = "7" onclick = "myMathLine('7')" > </td>
+				<td> <input class = "button" type = "button" value = "8" onclick = "myMathLine('8')" > </td>
+				<td> <input class = "button" type = "button" value = "9" onclick = "myMathLine('9')" > </td>
+				<td> <input class = "button" type = "button" value = "+" onclick = "myMathLine('+')" > </td>
+			</tr>
+			<tr>
+				<td> <input class = "button" type = "button" value = "." onclick = "myMathLine('.')" > </td>
+				<td> <input class = "button" type = "button" value = "0" onclick = "myMathLine('0')" > </td>
+				<td> <input class = "button" type = "button" value = "=" onclick = "calculate()" > </td>
+				<td> <input class = "button" type = "button" value = "*" onclick = "myMathLine('*')" > </td>
+			</tr>
+		</table>
+		
+	</body>
+</html>
