@@ -24,15 +24,19 @@
 			width: 500px;
 			margin:auto;
 		}
+
 		.e1{
 			color: red;
 		}
+
 		a:hover {
 			background-color: limegreen;
 		}
+
 		#sub1:hover {
 			background-color: greenyellow;
 		}
+
 		#sub1{
 			border: 2px solid #ccc;
   			border-radius: 4px;
@@ -41,6 +45,7 @@
 		#sub2:hover {
 			background-color: greenyellow;
 		}
+		
 		#sub2{
 			border: 2px solid #ccc;
   			border-radius: 4px;
